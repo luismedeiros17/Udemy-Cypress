@@ -3,7 +3,7 @@
 //const { contains } = require("cypress/types/jquery");
 
 describe('Cypress Basic', () => {
-    it.only('Clicar no item da pagina', () => {
+    it('Clicar no item da pagina', () => {
         cy.visit('https://wcaquino.me/cypress/componentes.html')
 
         //cy.pause()
